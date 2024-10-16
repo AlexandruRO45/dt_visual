@@ -42,7 +42,10 @@ export default class CarDecorationApi {
 
   /** Provide the pngs to be used for the cars */
   private static _carImages = [
-    `${process.env.PUBLIC_URL}/darkblue.png`,
+    `${process.env.PUBLIC_URL}/truck.png`,
+    `${process.env.PUBLIC_URL}/truck2.png`,
+    `${process.env.PUBLIC_URL}/truck3.png`,
+    // `${process.env.PUBLIC_URL}/darkblue.png`,
     // `${process.env.PUBLIC_URL}/green.png`,
     // `${process.env.PUBLIC_URL}/lime.png`,
     // `${process.env.PUBLIC_URL}/magenta.png`,
@@ -51,6 +54,7 @@ export default class CarDecorationApi {
     // `${process.env.PUBLIC_URL}/red.png`,
     // `${process.env.PUBLIC_URL}/teal.png`,
     // `${process.env.PUBLIC_URL}/white.png`,
+
   ];
 
   /** Used by `travelTo` to find a destination given a name */
